@@ -46,44 +46,47 @@ tasks:
     dest: ./resources/[standalone]
     src: ./temp/files/ox_lib.zip
 
+  - action: download_file
+    path: ./temp/files/fivem-appearance.rar
+    url: https://github.com/pedr0fontoura/fivem-appearance/releases/download/v1.3.1/fivem-appearance.rar
   - action: unzip
     dest: ./resources/[standalone]
-    src: ./temp/nd/fivem-appearance.zip
+    src: ./temp/files/fivem-appearance.rar
 
     
   # Download ND Framework shiz
   - action: download_github
-    dest: ./resources/[ND]/ND-Core
+    dest: ./resources/[ND]/ND_Core
     ref: main
     src: https://github.com/ND-Framework/ND_Core
 
   - action: download_github
-    dest: ./resources/[ND]/ND-Characters
+    dest: ./resources/[ND]/ND_Characters
     ref: main
     src: https://github.com/ND-Framework/ND_Characters
 
   - action: download_github
-    dest: ./resources/[ND]/ND-Fuel
+    dest: ./resources/[ND]/ND_Fuel
     ref: main
     src: https://github.com/ND-Framework/ND_Fuel
 
   - action: download_github
-    dest: ./resources/[ND]/ND-Properties
+    dest: ./resources/[ND]/ND_Properties
     ref: main
     src: https://github.com/ND-Framework/ND_Properties
 
   - action: download_github
-    dest: ./resources/[ND]/ND-AppearanceShops
+    dest: ./resources/[ND]/ND_AppearanceShops
     ref: main
     src: https://github.com/ND-Framework/ND_AppearanceShops
 
   - action: download_github
-    dest: ./resources/[ND]/ND-ShotSpotter
+    dest: ./resources/[ND]/ND_ShotSpotter
     ref: main
     src: https://github.com/ND-Framework/ND_ShotSpotter
 
   - action: download_github
-    dest: ./resources/[ND]/ND-Doorlocks
+    dest: ./resources/[ND]/ND_Doorlocks
     ref: main
     src: https://github.com/ND-Framework/ND_Doorlocks
 
