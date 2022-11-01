@@ -50,6 +50,16 @@ tasks:
     dest: ./resources/[standalone]
     src: ./temp/nd/fivem-appearance.zip
 
+  - action: download_github
+    dest: ./resources/[standalone]/SimpleHUD
+    ref: main
+    src: https://github.com/Andyyy7666/SimpleHUD
+
+  - action: download_github
+    dest: ./resources/[standalone]
+    ref: main
+    src: https://github.com/Hakkodevelopment/HD_SatMap
+
     
   # Download ND Framework shiz
   - action: download_github
